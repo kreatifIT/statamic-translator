@@ -1,0 +1,46 @@
+{
+    "name": "kreatif/statamic-translator",
+    "description": "Kreatif KI-Übersetzung: Kontext-Schicht (Glossar, Tonalität, Firmenwissen) und Review-Workflow für Magic Translator (Statamic 6)",
+    "type": "statamic-addon",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kreatif Team",
+            "email": "info@kreatif.it",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/kreatifIT/statamic-translator",
+    "keywords": [
+        "kreatif",
+        "statamic",
+        "statamic-addon",
+        "translation",
+        "ai",
+        "openai",
+        "multisite"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kreatif\\Translator\\": "src"
+        }
+    },
+    "require": {
+        "php": "^8.3",
+        "statamic/cms": "^6.0",
+        "el-schneider/statamic-magic-translator": "^0.3.2"
+    },
+    "extra": {
+        "statamic": {
+            "name": "Kreatif Translator",
+            "description": "KI-Übersetzung mit Kontext und Review-Workflow"
+        },
+        "laravel": {
+            "providers": [
+                "Kreatif\\Translator\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

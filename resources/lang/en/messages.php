@@ -1,0 +1,61 @@
+<?php
+
+return [
+    'approve_action' => 'Approve translation',
+    'approve_button' => 'Approve',
+    'approve_confirm' => 'The translation will be marked as reviewed and published.',
+    'approved' => '{1} One translation approved.|[2,*] :count translations approved.',
+
+    'field_needs_review' => 'Needs review',
+    'field_needs_review_instructions' => 'Machine translated — please review. The flag is removed when you publish.',
+    'field_machine_translated_at' => 'Machine translated at',
+    'field_machine_translated_from' => 'Translated from',
+
+    'widget_title' => 'Translations to review',
+    'widget_empty' => 'All machine translations have been reviewed.',
+    'widget_count' => '{1} One translation is waiting for review.|[2,*] :count translations are waiting for review.',
+    'widget_more' => '… and :count more.',
+    'widget_status_live' => 'live',
+    'widget_status_draft' => 'draft',
+
+    'settings' => [
+        'tab_company' => 'Company',
+        'tab_company_instructions' => 'Knowledge about the company that the AI considers in every translation.',
+        'company_description' => 'Company description',
+        'company_description_instructions' => 'What does the company do, which products/services, which values? 2–6 sentences.',
+        'tone_of_voice' => 'Tone of voice',
+        'tone_of_voice_instructions' => 'e.g. "warm, down-to-earth, regionally rooted, not salesy".',
+        'target_audience' => 'Target audience',
+        'target_audience_instructions' => 'Who is the website written for? e.g. "consumers and retailers in the Alpine region".',
+
+        'tab_languages' => 'Languages',
+        'tab_languages_instructions' => 'Rules per target language: form of address and language-specific guidelines.',
+        'language_rules' => 'Rules per language',
+        'language_rules_add' => 'Add language',
+        'site' => 'Language / site',
+        'formality' => 'Form of address',
+        'formality_formal' => 'Formal (Sie / Lei)',
+        'formality_informal' => 'Informal (du / tu)',
+        'formality_neutral' => 'Neutral (no direct address)',
+        'language_rules_text' => 'Language rules',
+        'language_rules_text_instructions' => 'e.g. "Swiss spelling without ß", "British English", "dot as thousands separator".',
+
+        'tab_glossary' => 'Glossary',
+        'tab_glossary_instructions' => 'Fixed translations for terminology and terms that must never be translated.',
+        'glossary' => 'Glossary',
+        'glossary_add' => 'Add term',
+        'glossary_term' => 'Term (:site)',
+        'glossary_note' => 'Note',
+        'do_not_translate' => 'Never translate',
+        'do_not_translate_instructions' => 'Brand, product and proper names, claims — kept verbatim.',
+
+        'tab_rules' => 'Style',
+        'style_rules' => 'Style rules',
+        'style_rules_instructions' => 'General guidelines: sentence length, quotation marks, inclusive language, units and prices.',
+        'examples' => 'Sample translations',
+        'examples_instructions' => 'Two or three short examples per language show the AI the desired style.',
+        'examples_add' => 'Add example',
+        'example_source' => 'Original (:site)',
+        'example_target' => 'Desired translation',
+    ],
+];

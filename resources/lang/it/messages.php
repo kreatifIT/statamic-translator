@@ -1,0 +1,61 @@
+<?php
+
+return [
+    'approve_action' => 'Approva traduzione',
+    'approve_button' => 'Approva',
+    'approve_confirm' => 'La traduzione verrà contrassegnata come verificata e pubblicata.',
+    'approved' => '{1} Una traduzione approvata.|[2,*] :count traduzioni approvate.',
+
+    'field_needs_review' => 'Da verificare',
+    'field_needs_review_instructions' => 'Tradotto automaticamente — da verificare. Alla pubblicazione il contrassegno viene rimosso.',
+    'field_machine_translated_at' => 'Tradotto automaticamente il',
+    'field_machine_translated_from' => 'Tradotto da',
+
+    'widget_title' => 'Traduzioni da verificare',
+    'widget_empty' => 'Tutte le traduzioni automatiche sono state verificate.',
+    'widget_count' => '{1} Una traduzione in attesa di verifica.|[2,*] :count traduzioni in attesa di verifica.',
+    'widget_more' => '… e altre :count.',
+    'widget_status_live' => 'online',
+    'widget_status_draft' => 'bozza',
+
+    'settings' => [
+        'tab_company' => 'Azienda',
+        'tab_company_instructions' => 'Informazioni sull\'azienda che l\'IA considera in ogni traduzione.',
+        'company_description' => 'Descrizione dell\'azienda',
+        'company_description_instructions' => 'Cosa fa l\'azienda, quali prodotti/servizi, quali valori? 2–6 frasi.',
+        'tone_of_voice' => 'Tono di voce',
+        'tone_of_voice_instructions' => 'es. „caldo, concreto, radicato nel territorio, non pubblicitario".',
+        'target_audience' => 'Pubblico di riferimento',
+        'target_audience_instructions' => 'Per chi scrive il sito? es. „clienti finali e rivenditori dell\'arco alpino".',
+
+        'tab_languages' => 'Lingue',
+        'tab_languages_instructions' => 'Regole per lingua di destinazione: forma di cortesia e indicazioni specifiche.',
+        'language_rules' => 'Regole per lingua',
+        'language_rules_add' => 'Aggiungi lingua',
+        'site' => 'Lingua / sito',
+        'formality' => 'Forma di cortesia',
+        'formality_formal' => 'Formale (Lei / Sie)',
+        'formality_informal' => 'Informale (tu / du)',
+        'formality_neutral' => 'Neutra (nessuna allocuzione diretta)',
+        'language_rules_text' => 'Regole linguistiche',
+        'language_rules_text_instructions' => 'es. „ortografia svizzera senza ß", „inglese britannico", „punto come separatore delle migliaia".',
+
+        'tab_glossary' => 'Glossario',
+        'tab_glossary_instructions' => 'Traduzioni fisse per termini tecnici e termini da non tradurre mai.',
+        'glossary' => 'Glossario',
+        'glossary_add' => 'Aggiungi termine',
+        'glossary_term' => 'Termine (:site)',
+        'glossary_note' => 'Nota',
+        'do_not_translate' => 'Non tradurre mai',
+        'do_not_translate_instructions' => 'Marchi, nomi di prodotti e nomi propri, claim — vengono mantenuti invariati.',
+
+        'tab_rules' => 'Stile',
+        'style_rules' => 'Regole di stile',
+        'style_rules_instructions' => 'Indicazioni generali: lunghezza delle frasi, virgolette, linguaggio inclusivo, unità e prezzi.',
+        'examples' => 'Traduzioni di esempio',
+        'examples_instructions' => 'Due o tre brevi esempi per lingua mostrano all\'IA lo stile desiderato.',
+        'examples_add' => 'Aggiungi esempio',
+        'example_source' => 'Originale (:site)',
+        'example_target' => 'Traduzione desiderata',
+    ],
+];

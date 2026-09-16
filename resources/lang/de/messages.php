@@ -1,0 +1,61 @@
+<?php
+
+return [
+    'approve_action' => 'Übersetzung freigeben',
+    'approve_button' => 'Freigeben',
+    'approve_confirm' => 'Die Übersetzung wird als geprüft markiert und veröffentlicht.',
+    'approved' => '{1} Eine Übersetzung freigegeben.|[2,*] :count Übersetzungen freigegeben.',
+
+    'field_needs_review' => 'Prüfung nötig',
+    'field_needs_review_instructions' => 'Maschinell übersetzt — bitte prüfen. Beim Veröffentlichen wird die Markierung entfernt.',
+    'field_machine_translated_at' => 'Maschinell übersetzt am',
+    'field_machine_translated_from' => 'Übersetzt aus',
+
+    'widget_title' => 'Übersetzungen zur Prüfung',
+    'widget_empty' => 'Alle maschinellen Übersetzungen sind geprüft.',
+    'widget_count' => '{1} Eine Übersetzung wartet auf Prüfung.|[2,*] :count Übersetzungen warten auf Prüfung.',
+    'widget_more' => '… und :count weitere.',
+    'widget_status_live' => 'online',
+    'widget_status_draft' => 'Entwurf',
+
+    'settings' => [
+        'tab_company' => 'Unternehmen',
+        'tab_company_instructions' => 'Wissen über das Unternehmen, das die KI bei jeder Übersetzung berücksichtigt.',
+        'company_description' => 'Unternehmensbeschreibung',
+        'company_description_instructions' => 'Was macht das Unternehmen, welche Produkte/Leistungen, welche Werte? 2–6 Sätze.',
+        'tone_of_voice' => 'Tonalität',
+        'tone_of_voice_instructions' => 'z. B. „warm, bodenständig, regional verwurzelt, nicht werblich".',
+        'target_audience' => 'Zielgruppe',
+        'target_audience_instructions' => 'Für wen schreibt die Website? z. B. „Endkunden und Fachhandel im Alpenraum".',
+
+        'tab_languages' => 'Sprachen',
+        'tab_languages_instructions' => 'Regeln je Zielsprache: Anrede und sprachspezifische Vorgaben.',
+        'language_rules' => 'Regeln je Sprache',
+        'language_rules_add' => 'Sprache hinzufügen',
+        'site' => 'Sprache / Site',
+        'formality' => 'Anrede',
+        'formality_formal' => 'Formell (Sie / Lei)',
+        'formality_informal' => 'Informell (du / tu)',
+        'formality_neutral' => 'Neutral (keine direkte Anrede)',
+        'language_rules_text' => 'Sprachregeln',
+        'language_rules_text_instructions' => 'z. B. „Schweizer Schreibweise ohne ß", „britisches Englisch", „Zahlen mit Punkt als Tausendertrennzeichen".',
+
+        'tab_glossary' => 'Glossar',
+        'tab_glossary_instructions' => 'Feste Übersetzungen für Fachbegriffe sowie Begriffe, die nie übersetzt werden.',
+        'glossary' => 'Glossar',
+        'glossary_add' => 'Begriff hinzufügen',
+        'glossary_term' => 'Begriff (:site)',
+        'glossary_note' => 'Hinweis',
+        'do_not_translate' => 'Nie übersetzen',
+        'do_not_translate_instructions' => 'Marken-, Produkt- und Eigennamen, Claims — werden unverändert übernommen.',
+
+        'tab_rules' => 'Stil',
+        'style_rules' => 'Stilregeln',
+        'style_rules_instructions' => 'Allgemeine Vorgaben: Satzlänge, Anführungszeichen, Gendern, Umgang mit Einheiten und Preisen.',
+        'examples' => 'Musterübersetzungen',
+        'examples_instructions' => 'Zwei bis drei kurze Beispiele je Sprache zeigen der KI den gewünschten Stil.',
+        'examples_add' => 'Beispiel hinzufügen',
+        'example_source' => 'Original (:site)',
+        'example_target' => 'Gewünschte Übersetzung',
+    ],
+];
