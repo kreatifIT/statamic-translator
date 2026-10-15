@@ -28,7 +28,7 @@
     "require": {
         "php": "^8.3",
         "statamic/cms": "^6.0",
-        "el-schneider/statamic-magic-translator": "^0.3.2"
+        "el-schneider/statamic-magic-translator": "^0.3.2 || ^0.4.0"
     },
     "extra": {
         "statamic": {
